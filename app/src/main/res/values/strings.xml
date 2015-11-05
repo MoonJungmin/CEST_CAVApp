@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">urpcest_proto</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_find_beacon">FindBeaconActivity</string>
+    <string name="title_activity_find_arduino_activty">FindArduinoActivty</string>
+    <string name="title_activity_riding">RidingActivity</string>
+
+</resources>

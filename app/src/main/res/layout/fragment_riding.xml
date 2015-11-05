@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="moon.urpcest_proto.activity.RidingActivity"
+    android:orientation="vertical"
+    android:background="#ff435061"
+    android:weightSum="1">
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="291dp"
+        android:id="@+id/cw_listView"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical|center_horizontal">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:background="#ff72c5f1"
+            android:text="Create"
+            android:id="@+id/btn_crew_create"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:background="#ff72c5f1"
+            android:text="Join"
+            android:id="@+id/btn_crew_join"
+            android:layout_margin="5dp" />
+    </LinearLayout>
+
+</LinearLayout>

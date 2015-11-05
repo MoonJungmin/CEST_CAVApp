@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="moon.urpcest_proto.activity.FindBeaconActivity"
+    android:background="#ff435061"
+    android:gravity="center_vertical|center_horizontal">
+
+    <TextView android:text="비콘을 가까이에 화면 위에 올려주세요."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#ffffff" />
+
+</LinearLayout>
